@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="InternetBankingV1">
+ 	<listeners>
+		<listener class-name="com.internetbanking.utilities.Reporting"></listener> 	
+ 	</listeners>
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes> 
+			<!-- <class name="com.internetbanking.testCases.TC_LoginTest_001"></class> -->
+			<!-- <class name="com.internetbanking.testCases.TC_LoginDDT_002"></class> -->
+			<class name="com.internetbanking.testCases.TC_AddCustomerTest_003"></class>
+		</classes>
+	
+	</test>
+</suite>
